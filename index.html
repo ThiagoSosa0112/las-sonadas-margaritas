@@ -3,34 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>Las soñadas margaritas</title>
 </head>
 <body>
-    <header>
-        <h1>Las Soñadas Margaritas</h1>
-        <nav>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand inicio" href="#">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse nav" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="ubicacion">Ubicación</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#galeria">Galería</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
-        <section>
-
+        <div class="carousel-inner">
+            <div>
+              <img src="./img/frente-casa.jpeg" class="d-block w-100 fondo" alt="...">
+              <div class="carousel-caption  d-md-block texto-img">
+                <h1 class="animate__animated animate__bounce">Las Soñadas Margaritas</h1>
+                <p class="animate__animated animate__bounce">Vacaciones llenas de paz y tranquilidad</p>
+              </div>
+            </div>
+        </div>
+        <section id="ubicacion">
+            <iframe src="" frameborder="0"></iframe>
         </section>
-        <section>
-
+        <section id="#contacto">
+            
         </section>
-        <section>
-
+        <section id="galeria" class="galery">
+            <img class="i1" src="./img/frente-casa.jpeg" alt="">
+            <img class="i2" src="./img/frente-puerta.jpeg" alt="">
+            <img class="i3" src="./img/puerta.jpeg" alt="">
+            <img class="i4" src="./img/bosque.jpeg" alt="">
+            <img class="i5" src="./img/bos.jpeg" alt="">
+            <img class="i6" src="./img/habitacion.jpeg" alt="">
+            <img class="i7" src="./img/cama-2.jpeg" alt="">
+            <img class="i8" src="./img/cama.jpeg" alt="">
+            <img class="i9" src="./img/parrila.jpeg" alt="">
         </section>
     </main>
     <footer>
         <section>
-            
+
         </section>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
