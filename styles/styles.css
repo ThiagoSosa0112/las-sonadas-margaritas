@@ -107,7 +107,6 @@ p{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr ;
-    gap: 10px 10px;
     grid-auto-flow: row;
     grid-template-areas:
         "camita cama"
@@ -121,7 +120,40 @@ p{
   .galery img{
     margin-left: 15px;
     object-fit: cover;
-    max-width: 50%;
+    width: 90%;
     height: 200px;
   }
+
+  .contacto{
+    .container {  display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 0px 15px;
+      grid-auto-flow: row;
+
+      grid-template-areas:
+        "whats"
+        "ig"
+        "mail";
+    }
+    
+  }
+  .wp{
+    grid-area: whats;
+  }
+  .ig{
+    grid-area: ig;
+  }
+  .mail{
+    grid-area: mail;
+  }
+  .contact-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-data img{
+    width: 100px;
+  }
+
 }
