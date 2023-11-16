@@ -95,16 +95,29 @@ p{
   }
   .fondo{
     opacity: 0.5;
-    height: 250px;
+    height: 500px;
     object-fit: cover;
     width: 100%;
   }
   .texto-img{
-    margin-bottom: 0px;
+    margin-bottom: 200pxpx;
   }
+  .ubicacion{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mapa{
+    width: 400px;
+    height: 100vh;
+  }
+
   .galery { 
+    margin-top: 20px;
     width: 100%;
     display: grid;
+    margin-right: 30%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr ;
     grid-auto-flow: row;
@@ -125,17 +138,17 @@ p{
   }
 
   .contacto{
-    .container {  display: grid;
+      display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr 1fr;
       gap: 0px 15px;
       grid-auto-flow: row;
-
+      height: 100vh;
       grid-template-areas:
         "whats"
         "ig"
         "mail";
-    }
+        margin-top: 40px;
     
   }
   .wp{
@@ -155,5 +168,12 @@ p{
   .contact-data img{
     width: 100px;
   }
-
+  h2{
+    text-align: center;
+  }
+  .up button{ 
+  position: sticky;
+  background-color: wheat;
+  border-radius: 50px;
+  }
 }
