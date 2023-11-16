@@ -100,17 +100,18 @@ p{
     width: 100%;
   }
   .texto-img{
-    margin-bottom: 200pxpx;
+    margin-bottom: 200px;
   }
   .ubicacion{
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
   }
   .mapa{
     width: 400px;
-    height: 100vh;
+    height: 400px;
   }
 
   .galery { 
