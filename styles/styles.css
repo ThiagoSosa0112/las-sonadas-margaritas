@@ -92,7 +92,7 @@ p{
 @media screen and (max-width:720px){
   
   nav{
-    width: 100%;
+    width: 100vw;
   }
   .fondo{
     opacity: 0.5;
