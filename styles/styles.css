@@ -101,7 +101,7 @@ p{
     width: 100vw;
   }
   .texto-img{
-    margin-bottom: 200px;
+    text-align: center;
   }
   .ubicacion{
     margin-top: 20px;
@@ -176,8 +176,13 @@ p{
     text-align: center;
   }
   .up button{ 
-  position: sticky;
-  background-color: wheat;
-  border-radius: 50px;
+    width: 48px;
+    height: 50px;
+    margin: 10px 20px;
+    position: fixed;
+    bottom: 0px;
+    border: 0px;
+    z-index: 999998;
+    right: 0px;
   }
 }
