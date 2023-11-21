@@ -121,7 +121,15 @@ p{
     width: 400px;
     height: 400px;
   }
-  
+
+  .items-izq p{
+    text-align: left;
+    margin-left: 20px;
+  }
+  .items-der p{
+    text-align: right;
+    margin-right: 20px;
+  }
   .galery{
     display: flex;
     flex-direction: column; 
@@ -134,12 +142,6 @@ p{
   .carousel img{
     object-fit: cover;
   }
- /*  .galery img{
-    margin-left: 15px;
-    object-fit: cover;
-    width: 90%;
-    height: 200px;
-  } */
 
   .contacto{
       display: grid;
@@ -216,6 +218,14 @@ p{
 }
 .day:hover {
     background-color: #f0f0f0;
+}
+
+.ocupado{
+  background-color: #b30417;
+}
+
+.disponible{
+  background-color: #acef56;
 }
 
 }
